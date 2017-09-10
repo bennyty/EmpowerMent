@@ -1,0 +1,6 @@
+framework module Pods_EmpowerMentUITests {
+  umbrella header "Pods-EmpowerMentUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}

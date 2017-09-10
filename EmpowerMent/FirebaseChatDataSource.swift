@@ -1,6 +1,6 @@
 //
 //  FirebaseChatDataSource.swift
-//  PainPals
+//  EmpowerMent
 //
 //  Created by Espey, Benjamin G on 9/9/17.
 //  Copyright © 2017 bennyty. All rights reserved.
@@ -75,7 +75,7 @@ class FirebaseChatDataSource: ChatDataSourceProtocol {
                 var newChatItems = [ChatItemProtocol]()
                 for message in messages {
                     let message = message.value as! [String : AnyObject]
-                    if let chatItem = PainPals.firebaseDataToMessage(message: message) {
+                    if let chatItem = EmpowerMent.firebaseDataToMessage(message: message) {
                         newChatItems.append(chatItem)
                     } else {
                         print("Failed to make message for data: \(message)")
@@ -93,7 +93,7 @@ class FirebaseChatDataSource: ChatDataSourceProtocol {
             [weak self] (data) in
             // Difference in children
             let message = data.value as! [String : AnyObject]
-            if let chatItem = PainPals.firebaseDataToMessage(message: message) {
+            if let chatItem = EmpowerMent.firebaseDataToMessage(message: message) {
                 self?.chatItems.append(chatItem)
             } else {
                 print("Failed to make message for data: \(message)")

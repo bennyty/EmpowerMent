@@ -1,6 +1,6 @@
 //
 //  UIView.swift
-//  PainPals
+//  EmpowerMent
 //
 //  Created by Espey, Benjamin G on 9/9/17.
 //  Copyright © 2017 bennyty. All rights reserved.

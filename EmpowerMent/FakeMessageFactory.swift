@@ -75,7 +75,7 @@ class FakeMessageFactory {
         let maxText = self.demoTexts.randomItem()
         let length: Int = 10 + Int(arc4random_uniform(300))
         let text = "\(maxText.substring(to: maxText.characters.index(maxText.startIndex, offsetBy: length))) incoming:\(incomingText), #:\(uid)"
-        return PainPals.createTextMessageModel(uid, text: text, isIncoming: isIncoming)
+        return EmpowerMent.createTextMessageModel(uid, text: text, isIncoming: isIncoming)
     }
 
     class func createPhotoMessageModel(_ uid: String, isIncoming: Bool) -> DemoPhotoMessageModel {
@@ -102,7 +102,7 @@ class FakeMessageFactory {
         default:
             imageName = "pic-test-3"
         }
-        return PainPals.createPhotoMessageModel(uid, image: UIImage(named: imageName)!, size: imageSize, isIncoming: isIncoming)
+        return EmpowerMent.createPhotoMessageModel(uid, image: UIImage(named: imageName)!, size: imageSize, isIncoming: isIncoming)
     }
 }
 

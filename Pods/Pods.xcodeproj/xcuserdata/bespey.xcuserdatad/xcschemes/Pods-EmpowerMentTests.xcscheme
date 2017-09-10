@@ -14,9 +14,9 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "700004794E77FEE3A91F30AA7E7FFCAE"
-               BuildableName = "Pods_PainPalsUITests.framework"
-               BlueprintName = "Pods-PainPalsUITests"
+               BlueprintIdentifier = "690A073B820023BC111C326445C41ECC"
+               BuildableName = "Pods_EmpowerMentTests.framework"
+               BlueprintName = "Pods-EmpowerMentTests"
                ReferencedContainer = "container:Pods.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -26,6 +26,7 @@
       buildConfiguration = "Debug"
       selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.LLDB"
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
+      language = ""
       shouldUseLaunchSchemeArgsEnv = "YES">
       <Testables>
       </Testables>
@@ -36,6 +37,7 @@
       buildConfiguration = "Debug"
       selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.LLDB"
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
+      language = ""
       launchStyle = "0"
       useCustomWorkingDirectory = "NO"
       ignoresPersistentStateOnLaunch = "NO"
@@ -45,9 +47,9 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "700004794E77FEE3A91F30AA7E7FFCAE"
-            BuildableName = "Pods_PainPalsUITests.framework"
-            BlueprintName = "Pods-PainPalsUITests"
+            BlueprintIdentifier = "690A073B820023BC111C326445C41ECC"
+            BuildableName = "Pods_EmpowerMentTests.framework"
+            BlueprintName = "Pods-EmpowerMentTests"
             ReferencedContainer = "container:Pods.xcodeproj">
          </BuildableReference>
       </MacroExpansion>

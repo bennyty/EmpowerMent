@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2BBA3A76369A56AEB2D41D03 /* Pods_EmpowerMentTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 583112152C737058C3D0D617 /* Pods_EmpowerMentTests.framework */; };
+		3721771E5DCBA64E069B4115 /* Pods_EmpowerMent.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2B473E939298553F588BE271 /* Pods_EmpowerMent.framework */; };
 		3D257D8D06F6CDBC0DD9A34D /* Pods_PainPalsUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 540ECAC1AB467DF7E963B643 /* Pods_PainPalsUITests.framework */; };
 		3EB01AC71F645E2800F54E62 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3EB01AC61F645E2800F54E62 /* GoogleService-Info.plist */; };
 		3EB01ACA1F6464AD00F54E62 /* UIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EB01AC91F6464AD00F54E62 /* UIView.swift */; };
@@ -36,6 +38,7 @@
 		3EFD526E1F64AA58001CDCC2 /* TimeSeparatorCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EFD526B1F64AA58001CDCC2 /* TimeSeparatorCollectionViewCell.swift */; };
 		3EFD526F1F64AA58001CDCC2 /* TimeSeparatorModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EFD526C1F64AA58001CDCC2 /* TimeSeparatorModel.swift */; };
 		3EFD52701F64AA58001CDCC2 /* TimeSeparatorPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EFD526D1F64AA58001CDCC2 /* TimeSeparatorPresenter.swift */; };
+		652628E87B95951221716352 /* Pods_EmpowerMentUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B3ECA8863449AC70257A47A /* Pods_EmpowerMentUITests.framework */; };
 		669A09094395CC41683B195E /* Pods_PainPals.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CDA493B0C2834D374E74BD68 /* Pods_PainPals.framework */; };
 		925AD1C79D8A08FF53351514 /* Pods_PainPalsTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9FC00945A225086ECCF952DC /* Pods_PainPalsTests.framework */; };
 /* End PBXBuildFile section */
@@ -60,6 +63,8 @@
 /* Begin PBXFileReference section */
 		155C8C82B4DF7E8390EE4883 /* Pods-PainPalsUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PainPalsUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-PainPalsUITests/Pods-PainPalsUITests.release.xcconfig"; sourceTree = "<group>"; };
 		1699635CBAD223CB4ED66950 /* Pods-PainPalsTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PainPalsTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-PainPalsTests/Pods-PainPalsTests.release.xcconfig"; sourceTree = "<group>"; };
+		2B473E939298553F588BE271 /* Pods_EmpowerMent.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_EmpowerMent.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3DB0CF947726A9CEAC33E771 /* Pods-EmpowerMent.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EmpowerMent.debug.xcconfig"; path = "Pods/Target Support Files/Pods-EmpowerMent/Pods-EmpowerMent.debug.xcconfig"; sourceTree = "<group>"; };
 		3EB01AC61F645E2800F54E62 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
 		3EB01AC91F6464AD00F54E62 /* UIView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIView.swift; sourceTree = "<group>"; };
 		3ED06D541F63BF9A0099B302 /* EmpowerMent.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EmpowerMent.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -95,12 +100,19 @@
 		3EFD526C1F64AA58001CDCC2 /* TimeSeparatorModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TimeSeparatorModel.swift; path = "Time Separator/TimeSeparatorModel.swift"; sourceTree = "<group>"; };
 		3EFD526D1F64AA58001CDCC2 /* TimeSeparatorPresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TimeSeparatorPresenter.swift; path = "Time Separator/TimeSeparatorPresenter.swift"; sourceTree = "<group>"; };
 		540ECAC1AB467DF7E963B643 /* Pods_PainPalsUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PainPalsUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		583112152C737058C3D0D617 /* Pods_EmpowerMentTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_EmpowerMentTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5B3ECA8863449AC70257A47A /* Pods_EmpowerMentUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_EmpowerMentUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5BC8A90FAAF2FEA7F2B64F57 /* Pods-PainPalsTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PainPalsTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PainPalsTests/Pods-PainPalsTests.debug.xcconfig"; sourceTree = "<group>"; };
+		61C6055D8BD60EC6E34F46FF /* Pods-EmpowerMentTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EmpowerMentTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-EmpowerMentTests/Pods-EmpowerMentTests.release.xcconfig"; sourceTree = "<group>"; };
+		7656EA637201AA235A3B93D0 /* Pods-EmpowerMentUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EmpowerMentUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-EmpowerMentUITests/Pods-EmpowerMentUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		7BFEF8C8D689982668DFB534 /* Pods-PainPalsUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PainPalsUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PainPalsUITests/Pods-PainPalsUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		9CF8D94E321CCE6C75C6122A /* Pods-PainPals.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PainPals.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PainPals/Pods-PainPals.debug.xcconfig"; sourceTree = "<group>"; };
 		9FC00945A225086ECCF952DC /* Pods_PainPalsTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PainPalsTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C672A0548DC96496DE6013DE /* Pods-EmpowerMentUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EmpowerMentUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-EmpowerMentUITests/Pods-EmpowerMentUITests.release.xcconfig"; sourceTree = "<group>"; };
 		CDA493B0C2834D374E74BD68 /* Pods_PainPals.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PainPals.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D89C00387AA788219683D844 /* Pods-PainPals.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PainPals.release.xcconfig"; path = "Pods/Target Support Files/Pods-PainPals/Pods-PainPals.release.xcconfig"; sourceTree = "<group>"; };
+		E619DFE6CC7DCCB84ABA5C94 /* Pods-EmpowerMentTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EmpowerMentTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-EmpowerMentTests/Pods-EmpowerMentTests.debug.xcconfig"; sourceTree = "<group>"; };
+		F8C43AAC0F72FF83F1A2D45F /* Pods-EmpowerMent.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EmpowerMent.release.xcconfig"; path = "Pods/Target Support Files/Pods-EmpowerMent/Pods-EmpowerMent.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +121,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				669A09094395CC41683B195E /* Pods_PainPals.framework in Frameworks */,
+				3721771E5DCBA64E069B4115 /* Pods_EmpowerMent.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -117,6 +130,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				925AD1C79D8A08FF53351514 /* Pods_PainPalsTests.framework in Frameworks */,
+				2BBA3A76369A56AEB2D41D03 /* Pods_EmpowerMentTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -125,6 +139,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3D257D8D06F6CDBC0DD9A34D /* Pods_PainPalsUITests.framework in Frameworks */,
+				652628E87B95951221716352 /* Pods_EmpowerMentUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -143,8 +158,8 @@
 			isa = PBXGroup;
 			children = (
 				3ED06D561F63BF9A0099B302 /* EmpowerMent */,
-				3ED06D6B1F63BF9A0099B302 /* PainPalsTests */,
-				3ED06D761F63BF9A0099B302 /* PainPalsUITests */,
+				3ED06D6B1F63BF9A0099B302 /* EmpowerMentTests */,
+				3ED06D761F63BF9A0099B302 /* EmpowerMentUITests */,
 				3ED06D551F63BF9A0099B302 /* Products */,
 				95CB70165B71F5F784726618 /* Pods */,
 				600DBB9DC6ECE3D43DF46592 /* Frameworks */,
@@ -187,22 +202,22 @@
 			path = EmpowerMent;
 			sourceTree = "<group>";
 		};
-		3ED06D6B1F63BF9A0099B302 /* PainPalsTests */ = {
+		3ED06D6B1F63BF9A0099B302 /* EmpowerMentTests */ = {
 			isa = PBXGroup;
 			children = (
 				3ED06D6C1F63BF9A0099B302 /* PainPalsTests.swift */,
 				3ED06D6E1F63BF9A0099B302 /* Info.plist */,
 			);
-			path = PainPalsTests;
+			path = EmpowerMentTests;
 			sourceTree = "<group>";
 		};
-		3ED06D761F63BF9A0099B302 /* PainPalsUITests */ = {
+		3ED06D761F63BF9A0099B302 /* EmpowerMentUITests */ = {
 			isa = PBXGroup;
 			children = (
 				3ED06D771F63BF9A0099B302 /* PainPalsUITests.swift */,
 				3ED06D791F63BF9A0099B302 /* Info.plist */,
 			);
-			path = PainPalsUITests;
+			path = EmpowerMentUITests;
 			sourceTree = "<group>";
 		};
 		3EFD525C1F64A8F0001CDCC2 /* Photo Messages */ = {
@@ -251,6 +266,9 @@
 				CDA493B0C2834D374E74BD68 /* Pods_PainPals.framework */,
 				9FC00945A225086ECCF952DC /* Pods_PainPalsTests.framework */,
 				540ECAC1AB467DF7E963B643 /* Pods_PainPalsUITests.framework */,
+				2B473E939298553F588BE271 /* Pods_EmpowerMent.framework */,
+				583112152C737058C3D0D617 /* Pods_EmpowerMentTests.framework */,
+				5B3ECA8863449AC70257A47A /* Pods_EmpowerMentUITests.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -264,6 +282,12 @@
 				1699635CBAD223CB4ED66950 /* Pods-PainPalsTests.release.xcconfig */,
 				7BFEF8C8D689982668DFB534 /* Pods-PainPalsUITests.debug.xcconfig */,
 				155C8C82B4DF7E8390EE4883 /* Pods-PainPalsUITests.release.xcconfig */,
+				3DB0CF947726A9CEAC33E771 /* Pods-EmpowerMent.debug.xcconfig */,
+				F8C43AAC0F72FF83F1A2D45F /* Pods-EmpowerMent.release.xcconfig */,
+				E619DFE6CC7DCCB84ABA5C94 /* Pods-EmpowerMentTests.debug.xcconfig */,
+				61C6055D8BD60EC6E34F46FF /* Pods-EmpowerMentTests.release.xcconfig */,
+				7656EA637201AA235A3B93D0 /* Pods-EmpowerMentUITests.debug.xcconfig */,
+				C672A0548DC96496DE6013DE /* Pods-EmpowerMentUITests.release.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -424,7 +448,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PainPals/Pods-PainPals-resources.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-EmpowerMent/Pods-EmpowerMent-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		13136B62B03577928DA2A81D /* [CP] Embed Pods Frameworks */ = {
@@ -439,7 +463,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PainPalsUITests/Pods-PainPalsUITests-frameworks.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-EmpowerMentUITests/Pods-EmpowerMentUITests-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		27BA9ED7FD4995ED0020C7D9 /* [CP] Copy Pods Resources */ = {
@@ -454,7 +478,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PainPalsTests/Pods-PainPalsTests-resources.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-EmpowerMentTests/Pods-EmpowerMentTests-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		2B8334A0267375CE588161C4 /* [CP] Copy Pods Resources */ = {
@@ -469,7 +493,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PainPalsUITests/Pods-PainPalsUITests-resources.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-EmpowerMentUITests/Pods-EmpowerMentUITests-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		94A3614A4C707C10CB18D7D6 /* [CP] Check Pods Manifest.lock */ = {
@@ -529,7 +553,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PainPals/Pods-PainPals-frameworks.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-EmpowerMent/Pods-EmpowerMent-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		F3B7C9999E5C88A69677990E /* [CP] Embed Pods Frameworks */ = {
@@ -544,7 +568,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PainPalsTests/Pods-PainPalsTests-frameworks.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-EmpowerMentTests/Pods-EmpowerMentTests-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -724,7 +748,7 @@
 		};
 		3ED06D7D1F63BF9A0099B302 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9CF8D94E321CCE6C75C6122A /* Pods-PainPals.debug.xcconfig */;
+			baseConfigurationReference = 3DB0CF947726A9CEAC33E771 /* Pods-EmpowerMent.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = A9EJ4BYQ2S;
@@ -738,7 +762,7 @@
 		};
 		3ED06D7E1F63BF9A0099B302 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = D89C00387AA788219683D844 /* Pods-PainPals.release.xcconfig */;
+			baseConfigurationReference = F8C43AAC0F72FF83F1A2D45F /* Pods-EmpowerMent.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = A9EJ4BYQ2S;
@@ -752,7 +776,7 @@
 		};
 		3ED06D801F63BF9A0099B302 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5BC8A90FAAF2FEA7F2B64F57 /* Pods-PainPalsTests.debug.xcconfig */;
+			baseConfigurationReference = E619DFE6CC7DCCB84ABA5C94 /* Pods-EmpowerMentTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -768,7 +792,7 @@
 		};
 		3ED06D811F63BF9A0099B302 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 1699635CBAD223CB4ED66950 /* Pods-PainPalsTests.release.xcconfig */;
+			baseConfigurationReference = 61C6055D8BD60EC6E34F46FF /* Pods-EmpowerMentTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -784,7 +808,7 @@
 		};
 		3ED06D831F63BF9A0099B302 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 7BFEF8C8D689982668DFB534 /* Pods-PainPalsUITests.debug.xcconfig */;
+			baseConfigurationReference = 7656EA637201AA235A3B93D0 /* Pods-EmpowerMentUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				DEVELOPMENT_TEAM = A9EJ4BYQ2S;
@@ -799,7 +823,7 @@
 		};
 		3ED06D841F63BF9A0099B302 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 155C8C82B4DF7E8390EE4883 /* Pods-PainPalsUITests.release.xcconfig */;
+			baseConfigurationReference = C672A0548DC96496DE6013DE /* Pods-EmpowerMentUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				DEVELOPMENT_TEAM = A9EJ4BYQ2S;

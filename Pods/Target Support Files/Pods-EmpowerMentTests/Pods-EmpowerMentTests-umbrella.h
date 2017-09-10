@@ -11,6 +11,6 @@
 #endif
 
 
-FOUNDATION_EXPORT double Pods_PainPalsTestsVersionNumber;
-FOUNDATION_EXPORT const unsigned char Pods_PainPalsTestsVersionString[];
+FOUNDATION_EXPORT double Pods_EmpowerMentTestsVersionNumber;
+FOUNDATION_EXPORT const unsigned char Pods_EmpowerMentTestsVersionString[];
 
