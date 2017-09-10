@@ -55,7 +55,7 @@
             BlueprintIdentifier = "3ED06D531F63BF9A0099B302"
             BuildableName = "PainPals.app"
             BlueprintName = "PainPals"
-            ReferencedContainer = "container:EmpowerMent.xcodeproj">
+            ReferencedContainer = "container:PainPals.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -78,7 +78,7 @@
             BlueprintIdentifier = "3ED06D531F63BF9A0099B302"
             BuildableName = "PainPals.app"
             BlueprintName = "PainPals"
-            ReferencedContainer = "container:EmpowerMent.xcodeproj">
+            ReferencedContainer = "container:PainPals.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>

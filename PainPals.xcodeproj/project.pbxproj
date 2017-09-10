@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		3D257D8D06F6CDBC0DD9A34D /* Pods_PainPalsUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 540ECAC1AB467DF7E963B643 /* Pods_PainPalsUITests.framework */; };
+		3E4751B01F65076D004B14E0 /* SendingStatusCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3E4751AF1F65076D004B14E0 /* SendingStatusCollectionViewCell.xib */; };
 		3EB01AC71F645E2800F54E62 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3EB01AC61F645E2800F54E62 /* GoogleService-Info.plist */; };
 		3EB01ACA1F6464AD00F54E62 /* UIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EB01AC91F6464AD00F54E62 /* UIView.swift */; };
 		3ED06D581F63BF9A0099B302 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3ED06D571F63BF9A0099B302 /* AppDelegate.swift */; };
@@ -28,7 +29,6 @@
 		3EFD525A1F64A8E5001CDCC2 /* DemoPhotoMessageModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EFD52571F64A8E5001CDCC2 /* DemoPhotoMessageModel.swift */; };
 		3EFD525B1F64A8E5001CDCC2 /* DemoPhotoMessageViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EFD52581F64A8E5001CDCC2 /* DemoPhotoMessageViewModel.swift */; };
 		3EFD52601F64A90A001CDCC2 /* SendingStatusCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EFD525D1F64A90A001CDCC2 /* SendingStatusCollectionViewCell.swift */; };
-		3EFD52611F64A90A001CDCC2 /* SendingStatusCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3EFD525E1F64A90A001CDCC2 /* SendingStatusCollectionViewCell.xib */; };
 		3EFD52621F64A90A001CDCC2 /* SendingStatusPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EFD525F1F64A90A001CDCC2 /* SendingStatusPresenter.swift */; };
 		3EFD52671F64A91F001CDCC2 /* DemoTextMessageHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EFD52641F64A91F001CDCC2 /* DemoTextMessageHandler.swift */; };
 		3EFD52681F64A91F001CDCC2 /* DemoTextMessageModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EFD52651F64A91F001CDCC2 /* DemoTextMessageModel.swift */; };
@@ -60,6 +60,7 @@
 /* Begin PBXFileReference section */
 		155C8C82B4DF7E8390EE4883 /* Pods-PainPalsUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PainPalsUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-PainPalsUITests/Pods-PainPalsUITests.release.xcconfig"; sourceTree = "<group>"; };
 		1699635CBAD223CB4ED66950 /* Pods-PainPalsTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PainPalsTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-PainPalsTests/Pods-PainPalsTests.release.xcconfig"; sourceTree = "<group>"; };
+		3E4751AF1F65076D004B14E0 /* SendingStatusCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SendingStatusCollectionViewCell.xib; sourceTree = "<group>"; };
 		3EB01AC61F645E2800F54E62 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
 		3EB01AC91F6464AD00F54E62 /* UIView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIView.swift; sourceTree = "<group>"; };
 		3ED06D541F63BF9A0099B302 /* PainPals.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PainPals.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -86,7 +87,6 @@
 		3EFD52571F64A8E5001CDCC2 /* DemoPhotoMessageModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DemoPhotoMessageModel.swift; path = "Photo Messages/DemoPhotoMessageModel.swift"; sourceTree = "<group>"; };
 		3EFD52581F64A8E5001CDCC2 /* DemoPhotoMessageViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DemoPhotoMessageViewModel.swift; path = "Photo Messages/DemoPhotoMessageViewModel.swift"; sourceTree = "<group>"; };
 		3EFD525D1F64A90A001CDCC2 /* SendingStatusCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SendingStatusCollectionViewCell.swift; path = "Sending status/SendingStatusCollectionViewCell.swift"; sourceTree = "<group>"; };
-		3EFD525E1F64A90A001CDCC2 /* SendingStatusCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = SendingStatusCollectionViewCell.xib; path = "Sending status/SendingStatusCollectionViewCell.xib"; sourceTree = "<group>"; };
 		3EFD525F1F64A90A001CDCC2 /* SendingStatusPresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SendingStatusPresenter.swift; path = "Sending status/SendingStatusPresenter.swift"; sourceTree = "<group>"; };
 		3EFD52641F64A91F001CDCC2 /* DemoTextMessageHandler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DemoTextMessageHandler.swift; path = "Text Messages/DemoTextMessageHandler.swift"; sourceTree = "<group>"; };
 		3EFD52651F64A91F001CDCC2 /* DemoTextMessageModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DemoTextMessageModel.swift; path = "Text Messages/DemoTextMessageModel.swift"; sourceTree = "<group>"; };
@@ -218,8 +218,8 @@
 		3EFD52631F64A910001CDCC2 /* Sending status */ = {
 			isa = PBXGroup;
 			children = (
+				3E4751AF1F65076D004B14E0 /* SendingStatusCollectionViewCell.xib */,
 				3EFD525D1F64A90A001CDCC2 /* SendingStatusCollectionViewCell.swift */,
-				3EFD525E1F64A90A001CDCC2 /* SendingStatusCollectionViewCell.xib */,
 				3EFD525F1F64A90A001CDCC2 /* SendingStatusPresenter.swift */,
 			);
 			name = "Sending status";
@@ -362,7 +362,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 3ED06D4F1F63BF9A0099B302 /* Build configuration list for PBXProject "EmpowerMent" */;
+			buildConfigurationList = 3ED06D4F1F63BF9A0099B302 /* Build configuration list for PBXProject "PainPals" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -388,10 +388,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				3ED06D621F63BF9A0099B302 /* LaunchScreen.storyboard in Resources */,
+				3E4751B01F65076D004B14E0 /* SendingStatusCollectionViewCell.xib in Resources */,
 				3EB01AC71F645E2800F54E62 /* GoogleService-Info.plist in Resources */,
 				3ED06D5F1F63BF9A0099B302 /* Assets.xcassets in Resources */,
 				3ED06D5D1F63BF9A0099B302 /* Main.storyboard in Resources */,
-				3EFD52611F64A90A001CDCC2 /* SendingStatusCollectionViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -815,7 +815,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		3ED06D4F1F63BF9A0099B302 /* Build configuration list for PBXProject "EmpowerMent" */ = {
+		3ED06D4F1F63BF9A0099B302 /* Build configuration list for PBXProject "PainPals" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				3ED06D7A1F63BF9A0099B302 /* Debug */,
