@@ -45,5 +45,27 @@ class LoginViewController: UIViewController {
         }
     }
 
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+
+        var dataSource: FirebaseChatDataSource!
+
+        let chatController = { () -> DemoChatViewController? in
+            if let controller = segue.destination as? DemoChatViewController {
+                return controller
+            }
+            if let tabController = segue.destination as? UITabBarController,
+                let controller = tabController.viewControllers?.first as? DemoChatViewController {
+                return controller
+            }
+            return nil
+            }()!
+
+        if dataSource == nil {
+            dataSource = FirebaseChatDataSource(conversationID: sender as! ConversationIDKey)
+        }
+        chatController.dataSource = dataSource
+        chatController.messageSender = dataSource.messageSender
+    }
+
 }
 
