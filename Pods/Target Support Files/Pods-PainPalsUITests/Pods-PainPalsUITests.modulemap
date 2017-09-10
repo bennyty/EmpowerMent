@@ -1,0 +1,6 @@
+framework module Pods_PainPalsUITests {
+  umbrella header "Pods-PainPalsUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}
