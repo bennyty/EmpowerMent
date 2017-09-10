@@ -62,17 +62,17 @@
 		1699635CBAD223CB4ED66950 /* Pods-PainPalsTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PainPalsTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-PainPalsTests/Pods-PainPalsTests.release.xcconfig"; sourceTree = "<group>"; };
 		3EB01AC61F645E2800F54E62 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
 		3EB01AC91F6464AD00F54E62 /* UIView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIView.swift; sourceTree = "<group>"; };
-		3ED06D541F63BF9A0099B302 /* PainPals.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PainPals.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3ED06D541F63BF9A0099B302 /* EmpowerMent.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EmpowerMent.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3ED06D571F63BF9A0099B302 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3ED06D591F63BF9A0099B302 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		3ED06D5C1F63BF9A0099B302 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		3ED06D5E1F63BF9A0099B302 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3ED06D611F63BF9A0099B302 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3ED06D631F63BF9A0099B302 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		3ED06D681F63BF9A0099B302 /* PainPalsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PainPalsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3ED06D681F63BF9A0099B302 /* EmpowerMentTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EmpowerMentTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3ED06D6C1F63BF9A0099B302 /* PainPalsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PainPalsTests.swift; sourceTree = "<group>"; };
 		3ED06D6E1F63BF9A0099B302 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		3ED06D731F63BF9A0099B302 /* PainPalsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PainPalsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3ED06D731F63BF9A0099B302 /* EmpowerMentUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EmpowerMentUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3ED06D771F63BF9A0099B302 /* PainPalsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PainPalsUITests.swift; sourceTree = "<group>"; };
 		3ED06D791F63BF9A0099B302 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3EFD521E1F6494A1001CDCC2 /* FirebaseChatDataSource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FirebaseChatDataSource.swift; sourceTree = "<group>"; };
@@ -142,7 +142,7 @@
 		3ED06D4B1F63BF9A0099B302 = {
 			isa = PBXGroup;
 			children = (
-				3ED06D561F63BF9A0099B302 /* PainPals */,
+				3ED06D561F63BF9A0099B302 /* EmpowerMent */,
 				3ED06D6B1F63BF9A0099B302 /* PainPalsTests */,
 				3ED06D761F63BF9A0099B302 /* PainPalsUITests */,
 				3ED06D551F63BF9A0099B302 /* Products */,
@@ -154,14 +154,14 @@
 		3ED06D551F63BF9A0099B302 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				3ED06D541F63BF9A0099B302 /* PainPals.app */,
-				3ED06D681F63BF9A0099B302 /* PainPalsTests.xctest */,
-				3ED06D731F63BF9A0099B302 /* PainPalsUITests.xctest */,
+				3ED06D541F63BF9A0099B302 /* EmpowerMent.app */,
+				3ED06D681F63BF9A0099B302 /* EmpowerMentTests.xctest */,
+				3ED06D731F63BF9A0099B302 /* EmpowerMentUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		3ED06D561F63BF9A0099B302 /* PainPals */ = {
+		3ED06D561F63BF9A0099B302 /* EmpowerMent */ = {
 			isa = PBXGroup;
 			children = (
 				3ED06D571F63BF9A0099B302 /* AppDelegate.swift */,
@@ -184,7 +184,7 @@
 				3EFD526A1F64A922001CDCC2 /* Text Messages */,
 				3EFD52711F64AA5C001CDCC2 /* Time Separator */,
 			);
-			path = PainPals;
+			path = EmpowerMent;
 			sourceTree = "<group>";
 		};
 		3ED06D6B1F63BF9A0099B302 /* PainPalsTests */ = {
@@ -271,9 +271,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		3ED06D531F63BF9A0099B302 /* PainPals */ = {
+		3ED06D531F63BF9A0099B302 /* EmpowerMent */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 3ED06D7C1F63BF9A0099B302 /* Build configuration list for PBXNativeTarget "PainPals" */;
+			buildConfigurationList = 3ED06D7C1F63BF9A0099B302 /* Build configuration list for PBXNativeTarget "EmpowerMent" */;
 			buildPhases = (
 				E3931635618B591C804441E5 /* [CP] Check Pods Manifest.lock */,
 				3ED06D501F63BF9A0099B302 /* Sources */,
@@ -286,14 +286,14 @@
 			);
 			dependencies = (
 			);
-			name = PainPals;
+			name = EmpowerMent;
 			productName = PainPals;
-			productReference = 3ED06D541F63BF9A0099B302 /* PainPals.app */;
+			productReference = 3ED06D541F63BF9A0099B302 /* EmpowerMent.app */;
 			productType = "com.apple.product-type.application";
 		};
-		3ED06D671F63BF9A0099B302 /* PainPalsTests */ = {
+		3ED06D671F63BF9A0099B302 /* EmpowerMentTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 3ED06D7F1F63BF9A0099B302 /* Build configuration list for PBXNativeTarget "PainPalsTests" */;
+			buildConfigurationList = 3ED06D7F1F63BF9A0099B302 /* Build configuration list for PBXNativeTarget "EmpowerMentTests" */;
 			buildPhases = (
 				94A3614A4C707C10CB18D7D6 /* [CP] Check Pods Manifest.lock */,
 				3ED06D641F63BF9A0099B302 /* Sources */,
@@ -307,14 +307,14 @@
 			dependencies = (
 				3ED06D6A1F63BF9A0099B302 /* PBXTargetDependency */,
 			);
-			name = PainPalsTests;
+			name = EmpowerMentTests;
 			productName = PainPalsTests;
-			productReference = 3ED06D681F63BF9A0099B302 /* PainPalsTests.xctest */;
+			productReference = 3ED06D681F63BF9A0099B302 /* EmpowerMentTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		3ED06D721F63BF9A0099B302 /* PainPalsUITests */ = {
+		3ED06D721F63BF9A0099B302 /* EmpowerMentUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 3ED06D821F63BF9A0099B302 /* Build configuration list for PBXNativeTarget "PainPalsUITests" */;
+			buildConfigurationList = 3ED06D821F63BF9A0099B302 /* Build configuration list for PBXNativeTarget "EmpowerMentUITests" */;
 			buildPhases = (
 				B06DEF19E7D132A17D4E6E35 /* [CP] Check Pods Manifest.lock */,
 				3ED06D6F1F63BF9A0099B302 /* Sources */,
@@ -328,9 +328,9 @@
 			dependencies = (
 				3ED06D751F63BF9A0099B302 /* PBXTargetDependency */,
 			);
-			name = PainPalsUITests;
+			name = EmpowerMentUITests;
 			productName = PainPalsUITests;
-			productReference = 3ED06D731F63BF9A0099B302 /* PainPalsUITests.xctest */;
+			productReference = 3ED06D731F63BF9A0099B302 /* EmpowerMentUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -375,9 +375,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				3ED06D531F63BF9A0099B302 /* PainPals */,
-				3ED06D671F63BF9A0099B302 /* PainPalsTests */,
-				3ED06D721F63BF9A0099B302 /* PainPalsUITests */,
+				3ED06D531F63BF9A0099B302 /* EmpowerMent */,
+				3ED06D671F63BF9A0099B302 /* EmpowerMentTests */,
+				3ED06D721F63BF9A0099B302 /* EmpowerMentUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -599,12 +599,12 @@
 /* Begin PBXTargetDependency section */
 		3ED06D6A1F63BF9A0099B302 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 3ED06D531F63BF9A0099B302 /* PainPals */;
+			target = 3ED06D531F63BF9A0099B302 /* EmpowerMent */;
 			targetProxy = 3ED06D691F63BF9A0099B302 /* PBXContainerItemProxy */;
 		};
 		3ED06D751F63BF9A0099B302 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 3ED06D531F63BF9A0099B302 /* PainPals */;
+			target = 3ED06D531F63BF9A0099B302 /* EmpowerMent */;
 			targetProxy = 3ED06D741F63BF9A0099B302 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -728,9 +728,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = A9EJ4BYQ2S;
-				INFOPLIST_FILE = PainPals/Info.plist;
+				INFOPLIST_FILE = EmpowerMent/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = io.github.bennyty.PainPals;
+				PRODUCT_BUNDLE_IDENTIFIER = io.github.bennyty.EmpowerMent;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
@@ -742,9 +742,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = A9EJ4BYQ2S;
-				INFOPLIST_FILE = PainPals/Info.plist;
+				INFOPLIST_FILE = EmpowerMent/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = io.github.bennyty.PainPals;
+				PRODUCT_BUNDLE_IDENTIFIER = io.github.bennyty.EmpowerMent;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
@@ -757,9 +757,9 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				DEVELOPMENT_TEAM = A9EJ4BYQ2S;
-				INFOPLIST_FILE = PainPalsTests/Info.plist;
+				INFOPLIST_FILE = EmpowerMentTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = io.github.bennyty.PainPalsTests;
+				PRODUCT_BUNDLE_IDENTIFIER = io.github.bennyty.EmpowerMentTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PainPals.app/PainPals";
@@ -773,9 +773,9 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				DEVELOPMENT_TEAM = A9EJ4BYQ2S;
-				INFOPLIST_FILE = PainPalsTests/Info.plist;
+				INFOPLIST_FILE = EmpowerMentTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = io.github.bennyty.PainPalsTests;
+				PRODUCT_BUNDLE_IDENTIFIER = io.github.bennyty.EmpowerMentTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PainPals.app/PainPals";
@@ -788,12 +788,12 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				DEVELOPMENT_TEAM = A9EJ4BYQ2S;
-				INFOPLIST_FILE = PainPalsUITests/Info.plist;
+				INFOPLIST_FILE = EmpowerMentUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = io.github.bennyty.PainPalsUITests;
+				PRODUCT_BUNDLE_IDENTIFIER = io.github.bennyty.EmpowerMentUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
-				TEST_TARGET_NAME = PainPals;
+				TEST_TARGET_NAME = EmpowerMent;
 			};
 			name = Debug;
 		};
@@ -803,12 +803,12 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				DEVELOPMENT_TEAM = A9EJ4BYQ2S;
-				INFOPLIST_FILE = PainPalsUITests/Info.plist;
+				INFOPLIST_FILE = EmpowerMentUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = io.github.bennyty.PainPalsUITests;
+				PRODUCT_BUNDLE_IDENTIFIER = io.github.bennyty.EmpowerMentUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
-				TEST_TARGET_NAME = PainPals;
+				TEST_TARGET_NAME = EmpowerMent;
 			};
 			name = Release;
 		};
@@ -824,7 +824,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		3ED06D7C1F63BF9A0099B302 /* Build configuration list for PBXNativeTarget "PainPals" */ = {
+		3ED06D7C1F63BF9A0099B302 /* Build configuration list for PBXNativeTarget "EmpowerMent" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				3ED06D7D1F63BF9A0099B302 /* Debug */,
@@ -833,7 +833,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		3ED06D7F1F63BF9A0099B302 /* Build configuration list for PBXNativeTarget "PainPalsTests" */ = {
+		3ED06D7F1F63BF9A0099B302 /* Build configuration list for PBXNativeTarget "EmpowerMentTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				3ED06D801F63BF9A0099B302 /* Debug */,
@@ -842,7 +842,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		3ED06D821F63BF9A0099B302 /* Build configuration list for PBXNativeTarget "PainPalsUITests" */ = {
+		3ED06D821F63BF9A0099B302 /* Build configuration list for PBXNativeTarget "EmpowerMentUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				3ED06D831F63BF9A0099B302 /* Debug */,
