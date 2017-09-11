@@ -61,7 +61,7 @@
 		155C8C82B4DF7E8390EE4883 /* Pods-PainPalsUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PainPalsUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-PainPalsUITests/Pods-PainPalsUITests.release.xcconfig"; sourceTree = "<group>"; };
 		1699635CBAD223CB4ED66950 /* Pods-PainPalsTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PainPalsTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-PainPalsTests/Pods-PainPalsTests.release.xcconfig"; sourceTree = "<group>"; };
 		3E4751AF1F65076D004B14E0 /* SendingStatusCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SendingStatusCollectionViewCell.xib; sourceTree = "<group>"; };
-		3EB01AC61F645E2800F54E62 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
+		3EB01AC61F645E2800F54E62 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
 		3EB01AC91F6464AD00F54E62 /* UIView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIView.swift; sourceTree = "<group>"; };
 		3ED06D541F63BF9A0099B302 /* PainPals.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PainPals.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3ED06D571F63BF9A0099B302 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -729,6 +729,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = A9EJ4BYQ2S;
 				INFOPLIST_FILE = PainPals/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = io.github.bennyty.PainPals;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -743,6 +744,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = A9EJ4BYQ2S;
 				INFOPLIST_FILE = PainPals/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = io.github.bennyty.PainPals;
 				PRODUCT_NAME = "$(TARGET_NAME)";

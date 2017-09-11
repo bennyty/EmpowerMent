@@ -67,29 +67,29 @@ class FirebaseChatDataSource: ChatDataSourceProtocol {
 
         conversationRef = ref.child("conversations/\(conversationID)")
 
-        conversationRef.queryOrdered(byChild: "timestamp").observeSingleEvent(of: .value, with: {
-            [weak self] (data) in
-            // Difference in children
-            if data.exists() {
-                let messages = data.value as! [String : AnyObject]
-                var newChatItems = [ChatItemProtocol]()
-                for message in messages {
-                    let message = message.value as! [String : AnyObject]
-                    if let chatItem = PainPals.firebaseDataToMessage(message: message) {
-                        newChatItems.append(chatItem)
-                    } else {
-                        print("Failed to make message for data: \(message)")
-                    }
-                }
-                self?.chatItems = newChatItems
-                if self != nil {
-                    self?.delegate?.chatDataSourceDidUpdate(self!, updateType: .firstLoad)
-                }
-            }
-        })
+//        conversationRef.queryOrdered(byChild: "timestamp").observeSingleEvent(of: .value, with: {
+//            [weak self] (data) in
+//            // Difference in children
+//            if data.exists() {
+//                let messages = data.value as! [String : AnyObject]
+//                var newChatItems = [ChatItemProtocol]()
+//                for message in messages {
+//                    let message = message.value as! [String : AnyObject]
+//                    if let chatItem = PainPals.firebaseDataToMessage(message: message) {
+//                        newChatItems.append(chatItem)
+//                    } else {
+//                        print("Failed to make message for data: \(message)")
+//                    }
+//                }
+//                self?.chatItems = newChatItems
+//                if self != nil {
+//                    self?.delegate?.chatDataSourceDidUpdate(self!, updateType: .firstLoad)
+//                }
+//            }
+//        })
 
-        conversationRef.queryLimited(toLast: 1).observe(.childAdded, with: {
-//        conversationRef.observe(.childAdded, with: {
+//        conversationRef.queryLimited(toLast: 1).observe(.childAdded, with: {
+        conversationRef.observe(.childAdded, with: {
             [weak self] (data) in
             // Difference in children
             let message = data.value as! [String : AnyObject]
